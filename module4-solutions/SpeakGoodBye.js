@@ -9,7 +9,7 @@
   byeSpeaker.speak = function speak(name){
     console.log(speakWord + " " + name);
   };
-  windows.byeSpeaker = byeSpeaker;
+  window.byeSpeaker = byeSpeaker;
 })(window);
 
 
